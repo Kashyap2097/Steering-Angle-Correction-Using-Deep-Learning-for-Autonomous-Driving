@@ -25,10 +25,10 @@ The dataset used for training the model is stored in the 'Data' directory. It co
 
 # Data Preprocessing
 The data preprocessing steps are performed before training the model. The following steps are implemented:
-  - 1.Extract the filename from the file path for 'center', 'left', and 'right' images.
-  - 2.Visualize the distribution of steering angles and remove samples to balance the data.
-  - 3.Apply image augmentation techniques such as zoom, pan, random brightness, and flipping to generate additional training data.
-  - 4.Preprocess the images by cropping, converting to YUV color space, applying Gaussian blur, and resizing.
+  1. Extract the filename from the file path for 'center', 'left', and 'right' images.
+  2. Visualize the distribution of steering angles and remove samples to balance the data.
+  3. Apply image augmentation techniques such as zoom, pan, random brightness, and flipping to generate additional training data.
+  4. Preprocess the images by cropping, converting to YUV color space, applying Gaussian blur, and resizing.
 
 # Model Architecture
 The model architecture used is based on the NVIDIA End-to-End Deep Learning model. It consists of multiple convolutional layers followed by fully connected layers. The model is defined in the nvidia_model function.
