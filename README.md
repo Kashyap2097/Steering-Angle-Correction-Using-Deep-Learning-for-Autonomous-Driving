@@ -18,7 +18,7 @@ Make sure you have the following libraries installed:
   - flask
 
 You can install these libraries using pip:
-pip install numpy matplotlib keras scikit-learn imgaug opencv-python pandas socketio eventlet flask
+  -  pip install numpy matplotlib keras scikit-learn imgaug opencv-python pandas socketio eventlet flask
 
 # Dataset
 The dataset used for training the model is stored in the 'Data' directory. It contains a CSV file named 'driving_log.csv' and a directory named 'IMG' with the corresponding images. The CSV file contains the following columns: 'center', 'left', 'right', 'steering', 'throttle', 'reverse', 'speed'.
